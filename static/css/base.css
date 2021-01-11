@@ -1,13 +1,13 @@
 html {
-    height:100%; /* this will allow our h100 classes in vertical centering to work. */
+    height: 100%;
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed; 
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: Lato;
+    font-family: 'Lato';
 }
 
 /* from Bulma */
@@ -18,7 +18,6 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-
 
 .logo-font {
     text-transform: uppercase;
@@ -55,6 +54,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
 }
 
 /* -------------------------------- Media Queries */
